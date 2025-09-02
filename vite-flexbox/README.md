@@ -1,69 +1,49 @@
-# React + TypeScript + Vite
+https://socialify.git.ci/Ntombenhle2004/flex-box-challenge/image?language=1&owner=1&name=1&stargazers=1&theme=Light
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Describtion
+**Flexbox UI Challenge**
 
-Currently, two official plugins are available:
+This is a simple layout project built with React and CSS. It shows different colored rectangles and circles arranged in a grid using Flexbox. Some shapes are larger and span more space. This project is great for practicing Flexbox in a React app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to Run This Project Locally
 
-## Expanding the ESLint configuration
+Follow these steps to clone the project and run it on your computer:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**1.Make sure you have these installed:**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* Node.js
+* Git
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+You can check if they’re installed by running:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* node -v
+* npm -v
+* git --version
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**2.Clone the Repository**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Open your terminal and run:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+git clone https://github.com/Ntombenhle2004/flex-box-challenge.git
+
+Then go into the project folder:
+
+cd Enter the file name
+
+**3.Run the code**
+
+Run this command to run the code on the browser
+
+*npm run dev
+
+This will open the app in your browser at http://localhost:3000/.
+
+**Need Help?**
+
+If you run into problems, make sure:
+
+Node and npm are properly installed
+
+You’re inside the correct project folder
+
+You’ve installed all dependencies with npm install
