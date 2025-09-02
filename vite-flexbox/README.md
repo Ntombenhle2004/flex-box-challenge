@@ -1,4 +1,4 @@
-https://socialify.git.ci/Ntombenhle2004/flex-box-challenge/image?language=1&owner=1&name=1&stargazers=1&theme=Light
+<img src="https://socialify.git.ci/Ntombenhle2004/flex-box-challenge/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="flex-box-challenge" width="640" height="320" />
 
 # Describtion
 **Flexbox UI Challenge**
