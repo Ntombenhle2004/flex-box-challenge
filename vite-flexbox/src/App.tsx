@@ -3,7 +3,7 @@ import './App.css'
 // import Rectangle from './components/rectangle'
 // import Squere from './components/squere'
 // import Circle from './components/circle'
-import FlexboxChallenge from './components/rectangle'
+import FlexboxChallenge from './components/flexboxChallenge'
 
 
 function App() {
