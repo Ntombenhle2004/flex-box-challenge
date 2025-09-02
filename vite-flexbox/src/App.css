@@ -9,7 +9,6 @@ body {
   height: 100%; 
   border: 2px;
 }
-
 .first4 {
   display: flex;
   flex-direction: row;
