@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%; 
+  border: 2px;
+}
+
+.first4 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5%;
+  padding: 1rem;
+  width: 100%;
+}
+.orangeRectangle {
+  background-color: orange;
+  width: 15rem;
+  height: 30rem;
+}
+.circleRed {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.squareRed {
+  background-color: red;
+  width: 15rem;
+  height: 12rem;
+}
+.BlueRect {
+  background-color: navy;
+  width: 30rem;
+  height: 12rem;
+}
+.sec3 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.ligtBlueRectangle {
+  background-color: aqua;
+  width: 30rem;
+  height: 12rem;
+}
+.Redcircle {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.ligtBlueCicle {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.third3 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.BlueRectangle {
+  background-color: navy;
+  width: 30rem;
+  height: 12rem;
+}
+.LBCicle {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.OrangeRect {
+  background-color: orange;
+  width: 30rem;
+  height: 12rem;
+}
+.last3 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.blueCircle, .circlBlue{
+  background-color: navy;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.redRectangle{
+  background-color: red;
+  width: 30rem;
+  height: 12rem;
+}
+/* .circlBlue{
+    background-color: navy;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+} */
